@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:background="@drawable/boat"
+
+    tools:context=".KoEnTouro">
+
+    <LinearLayout
+
+        android:id="@+id/lay_plus"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal"
+
+        android:layout_centerHorizontal="true"
+
+        android:layout_above="@id/lay_numbers"
+
+        android:weightSum="3">
+
+
+
+        <Button
+
+            android:id="@+id/b_plus_a"
+
+            android:layout_width="100dp"
+
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/gradient"
+            android:layout_marginLeft="18dp"
+            android:textStyle="bold"
+            android:textSize="15sp"
+
+            android:text="+" />
+            <!--android:layout_weight="1"-->
+
+
+
+
+
+        <Button
+
+            android:layout_width="100dp"
+
+            android:layout_height="wrap_content"
+
+            android:id="@+id/b_plus_b"
+
+            android:layout_marginLeft="38dp"
+
+            android:background="@drawable/gradient"
+            android:textStyle="bold"
+            android:textSize="15sp"
+
+            android:text="+"/>
+
+            <!--android:layout_weight="1"-->
+
+
+
+        <Button
+
+            android:layout_width="100dp"
+
+            android:layout_height="wrap_content"
+
+            android:id="@+id/b_plus_c"
+
+            android:layout_marginLeft="38dp"
+
+            android:background="@drawable/gradient"
+            android:textStyle="bold"
+            android:textSize="15sp"
+
+            android:text="+"/>
+
+            <!--android:layout_weight="1"-->
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:id="@+id/lay_numbers"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal"
+
+        android:layout_centerHorizontal="true"
+
+        android:layout_above="@id/lay_minus"
+
+        android:weightSum="3">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:id="@+id/tv_number_a"
+            android:textStyle="bold"
+            android:textColor="#000"
+
+            android:gravity="center"
+
+            android:layout_weight="1"
+
+            android:text="1"/>
+
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:id="@+id/tv_number_b"
+
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000"
+
+            android:layout_weight="1"
+
+            android:text="2"/>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:id="@+id/tv_number_c"
+
+            android:gravity="center"
+
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_weight="1"
+
+            android:text="3"/>
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+
+        android:id="@+id/lay_minus"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal"
+
+        android:layout_centerHorizontal="true"
+
+        android:layout_above="@id/b_check"
+
+        android:weightSum="3">
+
+        <Button
+
+            android:layout_width="100dp"
+
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/bg"
+
+            android:id="@+id/b_minus_a"
+
+            android:layout_marginLeft="18dp"
+
+            android:textStyle="bold"
+            android:textSize="23sp"
+
+            android:text="-"/>
+            <!--android:layout_weight="1"-->
+
+
+
+
+
+        <Button
+
+            android:layout_width="100dp"
+
+            android:layout_height="wrap_content"
+
+            android:id="@+id/b_minus_b"
+
+            android:background="@drawable/bg"
+            android:layout_marginLeft="40dp"
+            android:textStyle="bold"
+            android:textSize="23sp"
+
+            android:text="-"/>
+
+            <!--android:layout_weight="1"-->
+
+
+
+        <Button
+
+            android:layout_width="100dp"
+
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/bg"
+            android:textStyle="bold"
+            android:textSize="23sp"
+
+            android:id="@+id/b_minus_c"
+            android:layout_marginLeft="35dp"
+
+            android:text="-"/>
+
+            <!--android:layout_weight="1"-->
+
+
+
+
+    </LinearLayout>
+
+
+    <Button
+
+        android:id="@+id/b_check"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginBottom="3dp"
+
+        android:text="CHECK" />
+
+
+
+    <TextView
+
+        android:id="@+id/tv_info"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:layout_above="@+id/lay_plus"
+
+        android:gravity="center"
+
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="18sp"
+
+        android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:id="@+id/love"
+
+        android:orientation="horizontal">
+
+
+
+        <Button
+
+            android:id="@+id/b_resign"
+
+            android:layout_width="200dp"
+
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentTop="true"
+
+            android:background="#F44336"
+
+            android:textColor="#000"
+
+            android:text="Give Up"
+
+
+            android:layout_marginRight="10dp"/>
+
+
+
+
+        <Button
+
+            android:onClick="Popup"
+
+            android:layout_width="200dp"
+
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentTop="true"
+
+            android:layout_marginTop="1dp"
+
+            android:background="#3FB143"
+            android:textColor="#673AB7"
+            android:textStyle="bold"
+
+            android:text="Instructions" />
+
+
+    </LinearLayout>
+
+
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+
+        android:layout_below="@id/love"
+
+        android:layout_above="@id/lay_plus"
+
+        android:layout_height="wrap_content">
+
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+
+            android:orientation="vertical"
+
+            android:layout_height="wrap_content">
+
+            <TextView
+
+                android:id="@+id/tv_output"
+
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent"
+
+                android:textStyle="bold"
+
+                android:textColor="#000"
+
+                android:padding="10dp"
+
+                android:textSize="25dp"
+
+                android:text="*You'll have only 5 chances "/>
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

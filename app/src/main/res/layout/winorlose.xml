@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="475dp"
+    android:background="@drawable/winorloseback"
+    android:padding="5dp"
+    android:layout_gravity="center">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sorry you lost the number is "
+        android:textColor="#020202"
+        android:layout_marginTop="215dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/textwin"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Replay"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="30dp"
+        android:background="#FDFDFC"
+        android:textStyle="bold"
+        android:textColor="#E91E63"
+        android:drawableLeft="@drawable/ic_baseline_replay_24"
+        android:id="@+id/replaywin"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text=" Main Menu"
+        android:padding="2dp"
+        android:layout_marginLeft="106dp"
+        android:layout_marginTop="40dp"
+        android:background="#FDFDFC"
+        android:textStyle="bold"
+        android:textColor="#3F51B5"
+        android:drawableLeft="@drawable/ic_baseline_arrow_back_24"
+        android:id="@+id/mainmenuwin"/>
+
+
+</LinearLayout>

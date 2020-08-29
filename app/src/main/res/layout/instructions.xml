@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="340dp"
+    android:layout_height="340dp"
+    android:orientation="vertical"
+    android:background="@drawable/flybackimg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Instructions"
+            android:textSize="30dp"
+            android:textColor="#6200EA"
+            android:layout_marginLeft="85dp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X"
+            android:background="#614B2B"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            android:id="@+id/closeinst"
+            android:layout_marginLeft="50dp"
+            />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginRight="25dp"
+        android:text="GlideHigh is a game in which you have to shoot all the birds coming in   your way and you will gain points for shooting  the birds if you miss to shoot any of the birds then your game is over.The basic controls are Tap  to shoot and hold the screen to fly ."
+        android:textColor="#D50000"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

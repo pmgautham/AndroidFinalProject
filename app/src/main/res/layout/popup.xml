@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="475dp"
+    android:background="@drawable/unknown"
+    android:padding="5dp"
+    android:layout_gravity="center">
+
+
+    <TextView
+        android:id="@+id/txtclose"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+
+        android:text="x"
+        android:textStyle="bold"
+        android:layout_gravity="end"
+        android:gravity="center"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="78dp"
+            android:layout_marginTop="90dp"
+            android:text="INSTRUCTIONS"
+            android:textSize="20dp"
+            android:textColor="#9C27B0"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+
+
+            />
+
+
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="330dp"
+        android:layout_marginTop="95dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="Ko en        Touro is a number guessing game. At the start of the game, android generates a number. You must guess this number. Every choice of yours gives you bulls and cows. Every bull is a guessed digit in the original number and every cow is a guessed digit but misplaced. For example if the random number is 259 and you guessed 329, result is 1 Bull (digit 9) and 1 Cow (digit 2).
+"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="19dp"
+        />
+
+
+
+
+</LinearLayout>
